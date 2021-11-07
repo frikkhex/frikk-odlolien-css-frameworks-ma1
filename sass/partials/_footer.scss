@@ -1,0 +1,18 @@
+.footer {
+  background-color: $pale-white;
+  p {
+    color: $text-grey;
+  }
+}
+
+@media (max-width: 925px) {
+  .footer {
+    margin-top: 50px;
+    position: relative;
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}

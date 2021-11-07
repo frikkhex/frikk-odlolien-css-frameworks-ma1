@@ -1,0 +1,12 @@
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box {
+  height: 260px;
+  width: 260px;
+  margin: 10px;
+  background-color: $pale-white;
+}
